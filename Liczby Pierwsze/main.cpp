@@ -13,7 +13,7 @@ int main()
         if(n%i==0) x=1;
         else x=0;
     }
-    if(x==0)cout<<"Jest to liczba pierwsza.";
+    if(x==0)cout<<"To jest liczba pierwsza.";
     else cout<<"To nie jest liczba pierwsza";
     return 0;
 }
