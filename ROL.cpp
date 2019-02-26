@@ -14,13 +14,13 @@ int main()
 	}
 	
 	y = tab[0];
-	for (int i = 0; i < x; ++i)
+	for (int i = 0; i < x; ++i) //przesuniecie elementow w lewo o 1
 	{
 		if (i < (x-1)) { tab[i] = tab[i+1]; }
 		else { tab[x - 1] = y; }
 	}
 
-	for (int i = 0; i < x; i++)
+	for (int i = 0; i < x; i++) //wypisanie elementow w nowej kolejnosci
 	{
 		cout << tab[i] << endl;
 	}
