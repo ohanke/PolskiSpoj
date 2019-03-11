@@ -7,7 +7,7 @@ int main()
 	int x,s=1;
 	cin >> x;
 
-	for (int i = 1; i <= x; i++)
+	for (int i = 1; i <= x; i++) //silnia
 	{
 		s *= i;
 	}
